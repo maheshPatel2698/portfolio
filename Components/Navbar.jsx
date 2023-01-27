@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../public/newImages.jpg"
+import img from "../Images/newImages.jpg"
 import Image from 'next/image'
 import { AiOutlineMail, AiFillGithub, AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai"
 import { motion } from "framer-motion"
@@ -22,7 +22,7 @@ const Navbar = () => {
                     duration: 1.1
                 }}
                 className="left-section flex justify-center items-center">
-                <Image src={img} className="w-20 h-20 rounded-full" />
+                <Image src={img} className="w-20 h-20 rounded-full" priority />
             </motion.div>
             <motion.div
                 initial={{
