@@ -23,14 +23,14 @@ const Navbar = () => {
             </motion.div>
             <motion.div
                 initial={{
-                    y: -200,
+                    x: 500,
                     opacity: 0.5
                 }}
                 transition={{
                     duration: 1.1
                 }}
                 animate={{
-                    y: 0,
+                    x: 0,
                     opacity: 1
                 }}
                 className="right-section  flex justify-evenly items-center">
