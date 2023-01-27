@@ -5,7 +5,7 @@ import { AiOutlineMail, AiFillGithub, AiOutlineInstagram, AiOutlineLinkedin } fr
 import { motion } from "framer-motion"
 const Navbar = () => {
     return (
-        <header className=" grid sm:grid-cols-1 md:grid-cols-2 p-2">
+        <header className=" grid sm:grid-cols-1 md:grid-cols-2 p-2 overflow-hidden">
             <motion.div
                 initial={{
                     x: -500,
